@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="styles/slick.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta name="description" content="Conteúdo do site">
+    <meta name="keywords" content="palavras,separadas,por,vírgula">
+    <meta name="author" content="Douglas">
+    <title>Site Dentista</title>
+</head>
+<body>
+
+<!--------------HEADER------------------------------------------------------------------------------------------------------------------------>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png">
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#quem">QUEM SOU</a></li>
+                    <li><a href="#tratamentos">TRATAMENTOS</a></li>
+                    <li><a href="#depoimentos">DEPOIMENTOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav> <!--Menu-Desktop-->
+
+            <nav class="menu-mobile" onclick="showMenu()">
+                <ul>
+                    <li><a href="#quem">QUEM SOU</a></li>
+                    <li><a href="#tratamentos">TRATAMENTOS</a></li>
+                    <li><a href="#depoimentos">DEPOIMENTOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav> <!--Menu-Mobile-->
+
+            <div class="clear"></div>
+        </div> <!--Container-->
+    </header>
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------SECTION MOSAICO--------------------------------------------------------------------------------------------------------------->
+    <section class="mosaico">
+        <div class="container">
+            <div class="mosaico-wrapper">
+
+                <!--1-->
+                <div class="mosaico-single">
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto1.jpeg')"></div> <!--img-mosaico-single-->
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto2.jpg')"></div> <!--img-mosaico-single-->
+                </div> <!--Mosaico-Single-->
+
+                <!--2-->
+                <div class="mosaico-single">
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto3.jpg')"></div> <!--img-mosaico-single-->
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto4.jpg')"></div> <!--img-mosaico-single-->
+                </div> <!--Mosaico-Single-->
+
+                <!--3-->
+                <div class="mosaico-single">
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto5.jpg')"></div> <!--img-mosaico-single-->
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto6.jpg')"></div> <!--img-mosaico-single-->
+                </div> <!--Mosaico-Single-->
+
+                <!--4-->
+                <div class="mosaico-single">
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto7.jpg')"></div> <!--img-mosaico-single-->
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto8.jpg')"></div> <!--img-mosaico-single-->
+                </div> <!--Mosaico-Single-->
+
+                <!--5-->
+                <div class="mosaico-single">
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto9.jpg')"></div> <!--img-mosaico-single-->
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto10.png')"></div> <!--img-mosaico-single-->
+                </div> <!--Mosaico-Single-->
+
+                <!--6-->
+                <div class="mosaico-single">
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto11.jpg')"></div> <!--img-mosaico-single-->
+                    <div class="img-mosaico-single" style="background-image: url('./images/mosaico/foto12.png')"></div> <!--img-mosaico-single-->
+                </div> <!--Mosaico-Single-->
+
+            </div> <!--Mosaico-Wrapper-->
+        </div> <!--Container-->
+    </section> <!--Mosaico-->
+<!------------------------------------------------------------------------------------------------------------------------------------>
+
+
+<!--------------SECTION SERVIÇOS------------------------------------------------------------------------------------------------------->
+    <section  class="servicos">
+        <div class="container">
+
+            <!--Box-1-->
+            <div class="box-servico">
+                <h2> FACETAS</h2>
+                <p> Lore impsum dolor sit amet, consectutur adiposcing elit.Mauris ullacomper.</p>
+            </div> <!--Box-Serviços-->
+
+            <!--Box-2-->
+            <div class="box-servico">
+                <h2> REABILITAÇÃO ORAL</h2>
+                <p> Lore impsum dolor sit amet, consectutur adiposcing elit.Mauris ullacomper.</p>
+            </div> <!--Box-Serviços-->
+
+            <!--Box-3-->
+            <div class="box-servico">
+                <h2> PRÓTESE SOBRE IMPLANTE</h2>
+                <p> Lore impsum dolor sit amet, consectutur adiposcing elit.Mauris ullacomper.</p>
+            </div> <!--Box-Serviços-->
+
+        </div>
+    </section> <!--Serviços-->
+<!--------------------------------------------------------------------------------------------------------------------------------------> 
+
+
+<!--------------SECTION PERFIL----------------------------------------------------------------------------------------------------------->
+    <section id="quem" class="perfil-container">
+        <div class="container">
+            <div class="perfil-wrapper">
+                <div class="perfil-wrapper2">
+                    <div class="img-perfil"></div> <!--Img-Perfil-->
+                    <div class="texto-perfil">
+                        <h2> DRA. FERNANDA VARELLA SLOVINSKI</h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales ac nunc ac eleifend. Ut bibendum dui tortor,
+                             nec efficitur massa vulputate nec. Donec vehicula eros diam, at pretium magna euismod sed. Proin sed enim odio. 
+                             Vestibulum consequat fringilla rutrum. Quisque rutrum, justo et consequat rhoncus, purus nibh ullamcorper mi, et
+                              interdum magna nibh ac nisi. Nunc quis dignissim mauris. Curabitur iaculis ut metus vel consequat. Fusce commodo
+                               metus ligula, vel vulputate leo pretium et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut dui
+                                non sapien porttitor interdum. Donec vel placerat magna. Vivamus et leo ut dui consectetur tristique at ut libero. 
+                            <br><br>
+                            Maecenas nunc dolor, porttitor eu massa non, placerat lacinia mi. Nam molestie leo erat, ut luctus lacus vehicula ac.
+                             Duis ornare purus vehicula, finibus nibh at, commodo massa. Ut sit amet ex non nisi imperdiet finibus faucibus eu 
+                             risus. Aenean tristique nisl sit amet viverra scelerisque. Sed eu turpis hendrerit, varius ipsum quis, hendrerit dui.
+                              Phasellus nec enim vulputate, porta odio non, finibus odio. Ut eu risus ante. Duis ut consequat erat.</p>
+                    </div> <!--Texto-perfil-->
+                </div> <!--Perfil-Wrapper2-->
+            </div> <!--Perfil-Wrapper-->
+        </div>
+    </section> <!--Perfil-->
+<!-------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------SECTION VIDEOS---------------------------------------------------------------------------------------------------------->
+    <section class="videos">
+        <div class="container">
+
+            <div class="box-video">
+                <iframe src="https://www.youtube.com/embed/9tFszRJ2lBI" 
+                frameborder="1" allow="accelerometer; autoplay; 
+                encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div> <!--Box-Video 1-->
+
+            <div class="box-video">
+                <iframe src="https://www.youtube.com/embed/VN9mtOIVmlM" 
+                frameborder="1" allow="accelerometer; autoplay; 
+                encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div> <!--Box-Video 2-->
+
+            <div class="box-video">
+                <iframe src="https://www.youtube.com/embed/UZuTmvoy7i4" 
+                frameborder="1" allow="accelerometer; autoplay; 
+                encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div> <!--Box-Video 3-->
+
+            <div class="clear"></div>
+        </div> <!--Container-->
+    </section> <!--Videos-->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------SECTION TRATAMENTOS------------------------------------------------------------------------------------------------------->
+    <section id="tratamentos" class="tratamentos">
+        <h2>Tratamentos</h2>
+        <div class="container">
+
+        <!-----------------------1--------------------------->
+            <div class="tratamento-container">
+                <div class="tratamento-single">
+                    <h2> Profilaxia e Prevenção</h2>
+                    <p> Mantenha um sorriso sem doenã Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e 
+                        evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-1-->
+
+                <div class="tratamento-single">
+                    <h2> Restauração em Resina Composta</h2>
+                    <p> Mantenha um sorriso sem doença Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e
+                         evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-2-->
+
+                <div class="tratamento-single">
+                    <h2> Aparelhos Ortodonticos Estéticos</h2>
+                    <p> Mantenha um sorriso sem doenã Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e 
+                        evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-3-->
+            </div> <!--Tratamento-container-1-->
+        <!-----------------------1--------------------------->
+
+        <!-----------------------2--------------------------->
+            <div class="tratamento-container">
+                <div class="tratamento-single">
+                    <h2> Próteses Fixas sobre Implantes</h2>
+                    <p> Mantenha um sorriso sem doenã Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e
+                         evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-1-->
+
+                <div class="tratamento-single">
+                    <h2> Facetas ou lentes de contato</h2>
+                    <p> Mantenha um sorriso sem doenã Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e
+                         evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-2-->
+
+                <div class="tratamento-single">
+                    <h2> Odontopediatria especializada</h2>
+                    <p> Mantenha um sorriso sem doenã Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e 
+                        evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-3-->
+            </div> <!--Tratamento-container-2-->
+        <!-----------------------2---------------------------> 
+
+        <!-----------------------3--------------------------->
+            <div class="tratamento-container">
+                <div class="tratamento-single">
+                    <h2> Clareamento Dental</h2>
+                    <p> Mantenha um sorriso sem doenã Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e
+                         evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-1-->
+
+                <div class="tratamento-single">
+                    <h2> Próteses em cerâmica pura</h2>
+                    <p> Mantenha um sorriso sem doenã Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e 
+                        evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-2-->
+
+                <div class="tratamento-single">
+                    <h2> Cirurgias de Implantes</h2>
+                    <p> Mantenha um sorriso sem doenã Periodontal, livre de cálculo, cáries e outras doenças que podem ser controladas e 
+                        evitadas com a ida regular ao dentista.</p>
+                </div> <!--Tratamento-Single-3-->
+            </div> <!--Tratamento-container-3-->
+        <!-----------------------3--------------------------->
+
+            <!-- <div class="clear"></div> -->
+        </div> <!--Container-->
+    </section> <!--Tratamentos-->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------SECTION DEPOIMENTOS----------------------------------------------------------------------------------------------------->
+    <section id="depoimentos" class="depoimentos">
+        <h2>Depoimentos</h2>
+        <div class="container">
+
+            <!--1-->
+            <div class="depoimento-single">
+                <quote>
+                    "Estrutura e atendimento excepcionais! Adorei o atendimento da DRA. Fernanda, excelente profissional."
+                </quote>
+                <div class="nome-depoimento">
+                    <img src="images/depoimento1.png">
+                    <span> Maria Augusta Santos</span>
+                </div> <!--Nome-depoimento-->
+            </div> <!--Depoimento-Single-->
+            <!----->
+
+            <!--2-->
+            <div class="depoimento-single">
+                <quote>
+                    "Estrutura e atendimento excepcionais! Adorei o atendimento da DRA. Fernanda, excelente profissional."
+                </quote>
+                <div class="nome-depoimento">
+                    <img src="images/marco.png">
+                    <span> Marco Batista</span>
+                </div> <!--Nome-depoimento-->
+            </div> <!--Depoimento-Single-->
+            <!----->
+
+            <!--3-->
+            <div class="depoimento-single">
+                <quote>
+                    "Estrutura e atendimento excepcionais! Adorei o atendimento da DRA. Fernanda, excelente profissional."
+                </quote>
+                <div class="nome-depoimento">
+                    <img src="images/ruan.png">
+                    <span> Ruan da Cunha</span>
+                </div> <!--Nome-depoimento-->
+            </div> <!--Depoimento-Single-->
+            <!----->
+            
+            <!-- <div class="clear"></div> -->
+        </div> <!--Container-->
+    </section> <!--Depoimentos-->
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------SECTION SOCIAL------------------------------------------------------------------------------------------------------->
+    <section class="social">
+
+        <div class="instagram-chamada">
+            <a target="_blank" href="https://instagram.com"><img src="images/inst.png"></a>
+            <p> Acesse o Instagram para ver mais fotos <br>
+                @dra.fernanda_slovinski</p>
+        </div> <!--Instagram-->
+
+        <div class="mosaico-social">
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto11.jpg');"></div> <!--img-mosaico-single-social-->
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto5.jpg');"></div> <!--img-mosaico-single-social-->
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto3.jpg');"></div> <!--img-mosaico-single-social-->
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto10.png');"></div > <!--img-mosaico-single-social-->
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto1.jpeg');"></div> <!--img-mosaico-single-social-->
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto12.png');"></div> <!--img-mosaico-single-social-->
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto2.jpg');"></div> <!--img-mosaico-single-social-->
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto8.jpg');"></div> <!--img-mosaico-single-social-->
+            <div class="img-mosaico-single-social" style="background-image: url('./images/mosaico/foto4.jpg');"></div> <!--img-mosaico-single-social-->
+        </div> <!--Moisaico-Social-->
+
+        <div class="facebook-chamada">
+            <a target="_blank" href="https://facebook.com"><img src="images/fb.png"></a>
+            <p> Acesse o Facebook <br>
+                facebook.com/DraFernandaSlovinski</p>
+        </div> <!--Facebook-->
+
+        <div class="clear"></div>
+    </section> <!--Social-->
+<!----------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------SECTION CONTATO------------------------------------------------------------------------------------------------>
+    <section id="contato" class="contato">
+        <h2> Contato</h2>
+        <form>
+
+            <div class="form-wrapper w100">
+                <span>Seu nome</span>
+                <input placeholder="Nome*" name="nome" type="text">
+            </div> <!--Form-Wrapper-->
+
+            <div class="form-wrapper w50">
+                <span>Seu e-mail</span>
+                <input placeholder="E-mail*" name="email" type="text">
+            </div> <!--Form-Wrapper-->
+
+            <div class="form-wrapper w50">
+                <span>Seu telefone</span>
+                <input placeholder="Telefone*" name="telefone" type="text">
+            </div> <!--Form-Wrapper-->
+
+            <div class="form-wrapper w100">
+                <span>Mensagem</span>
+                <textarea placeholder="Mensagem..."></textarea>
+            </div> <!--Form-Wrapper-->
+
+            <div class="form-wrapper w100" style="text-align: center;">
+                <input name="submit" type="submit" value="Enviar">
+            </div>
+
+            <div class="clear"></div>
+        </form>
+        
+    </section> <!--Contato-->
+<!--------------------------------------------------------------------------------------------------------------------------->
+
+
+<!--------------FOOTER------------------------------------------------------------------------------------------------------->
+    <footer>
+        <div class="container">
+
+            <div class="footer-block">
+                <h2> Telefone</h2>
+                <p> Contato: +55 48 3228 3088<br> WhtasApp: +55 48 9 96915548</p>
+            </div> <!--Footer-Block-->
+
+            <div class="footer-block">
+                <h2> Horários</h2>
+                <p> Segunda à Sexta<br> 08:00 - 12:00 - 14:00 - 18:00</p>
+            </div> <!--Footer-Block-->
+
+            <div class="footer-block">
+                <h2> Endereço</h2>
+                <p> AV: Tagowinsky,894. Torre 3 Sala 108<br> Cep: 89230254 - Florianópolis,SC</p>
+            </div> <!--Footer-Block-->
+             <div class="clear"></div>
+
+        </div> <!--Container-->
+    </footer> <!--Footer-->
+
+    <div class="autor">
+        <div class="autor-wrapper">
+            <img src="images/Cidral.png">
+        </div> <!--Autor-wrapper-->
+    </div> <!--autor-->
+<!--------------------------------------------------------------------------------------------------------------------->
+ 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./scripts/slick.js"></script>
+<script src="./scripts/slides.js"></script>
+<script src="./scripts/menuScroll.js"></script>
+<script src="./scripts/clickMenu.js"></script>
+</body>
+</html>
